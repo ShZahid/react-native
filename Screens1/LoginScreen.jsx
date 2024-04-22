@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
-import {GoToButton} from '../components/gotoButton';
+
 
 
 
@@ -19,8 +19,8 @@ const LoginScreen = ({navigation}) => {
    
     
     // Hardcoded username and password
-    const storedUsername = 'zahid';
-    const storedPassword = 'bilal121';
+    const storedUsername = '';
+    const storedPassword = '';
 
     if (username === storedUsername && password === storedPassword) {
       //<GoToButton screenName="WelcomeScreen"/>
